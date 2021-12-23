@@ -1,0 +1,133 @@
+body{
+    background-color: #04151f;
+    color: #FCF7F8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.brand{
+    /* margin: auto; */
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    text-align: center;
+    padding: 0.1em 0 0 0;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+    letter-spacing: 1em;
+    font-size: x-large;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 80%;
+    border: 1px solid #ABA9C3;
+    border-radius: 2%;
+    overflow: hidden;
+}
+.left{
+    height: 100%;
+    overflow: hidden;
+    background-image: url("https://cdn.pixabay.com/photo/2021/02/08/18/19/electronics-5995945_960_720.jpg");
+}
+.right{
+    height: 100%;
+    /* position: relative; */
+    background-color: #FCF7F8;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.title{
+    /* position: absolute; */
+    /* top: 0; */
+    /* padding: 1em 0; */
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    font-size: x-large;
+    padding: 1em;
+    color: #ABA9C3;
+    font-family: 'Bebas Neue';
+}
+.description{
+    text-align: center;
+    color: #ABA9C3;
+    font-family: 'Quicksand';
+    /* text-transform: uppercase; */
+}
+.input{
+    margin: auto;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand';
+}
+.label{
+    text-align: left;
+    text-transform: uppercase;
+    padding: 1em;
+    color: #696D7D;
+}
+.form{
+    font-family: 'Quicksand';
+    padding: 10px;
+    width: 100%;
+    border: solid 1px #ABA9C3;
+    border-radius: 1em;
+}
+.form:hover{
+    padding: 10px;
+    border: solid 1px #04151f;
+}
+.login{
+    margin: 1em;
+    padding: 1em 3em;
+    border: none;
+    color: #FCF7F8;
+    font-size: normal;
+    background-color: #04151f;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login:hover{
+    background-color: #ABA9C3;
+    color: #04151f;
+    box-shadow: 0 0 10px #696D7D;
+
+}
+.sign-up{
+    color: #ABA9C3;
+}
+.sign-up-link{
+    text-decoration: none;
+    color: #696D7D;
+}
+.sign-up-link:hover{
+    text-decoration: none;
+    color: #04151f;
+}
+footer{
+    position: absolute;
+    bottom: 2px;
+    width: 100vw;
+    text-align: center;
+    font-family: 'Quicksand';
+}
+@media (max-width: 768px){
+    body{
+        display: flex;
+    }
+}
